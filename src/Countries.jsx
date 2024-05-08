@@ -16,7 +16,7 @@ const Countries = () => {
 			if (response.status === 200) {
 				setCountriesList(response.data);
 
-				setFilteredCountryList(countriesList);
+				setFilteredCountryList(response.data);
 			}
 		} catch (error) {
 			console.log(error);
