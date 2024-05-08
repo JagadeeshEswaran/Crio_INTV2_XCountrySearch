@@ -85,6 +85,7 @@ const Countries = () => {
 					{filteredCountryList.map((item) => (
 						<article
 							key={item.ccn3}
+							className="countryCard"
 							style={{
 								width: "10rem",
 								height: "10rem",
